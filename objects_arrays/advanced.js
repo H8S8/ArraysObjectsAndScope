@@ -32,16 +32,16 @@ unitedKingdom = [
  * Q1. Add some tourist attractions to England
  */
 
-england = unitedKingdom.find(country => country.name === "England");
+england = unitedKingdom.find(country => country.name === "England"); // this creates a pointer???
 england.touristAttractions = ["Roman Baths", "Tower of London"];
-console.log(england);
+// console.log(england);
 
 /**
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
 wales = unitedKingdom.find(country => country.name === "Wales");
-
+wales.capital = "Cardiff";
 // console.log(wales);
 
 /**
