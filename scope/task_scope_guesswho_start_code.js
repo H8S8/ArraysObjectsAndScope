@@ -106,3 +106,5 @@
 
 // changeGuess();
 // console.log(`Guess Who is ${guess.firstName}`);
+
+// // prediction: an error as we are trying to assign to a const variable
