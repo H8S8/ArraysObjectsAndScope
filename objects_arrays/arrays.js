@@ -18,16 +18,15 @@ stations.push("London Kings Cross");
  */
 
 stations.shift();
-console.log(stations);
+// console.log(stations);
 
 /**
  * Q3.
  * How many stations are on the line?
  */
 
-stationCount = null;
-
-// console.log("There are " + stationCount + " stations.");
+stationCount = stations.length;
+console.log("There are " + stationCount + " stations.");
 
 
 
