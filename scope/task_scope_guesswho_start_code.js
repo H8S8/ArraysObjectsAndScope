@@ -82,6 +82,8 @@
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
 
+// // Prediction: Guess who is Gail
+
 // // GUESS 5 ///////////////////
 
 // const guess = {
