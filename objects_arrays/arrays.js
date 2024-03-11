@@ -52,16 +52,15 @@ stations[stations.indexOf("North Berwick")] = "Berwick-upon-Tweed";
  */
 
 stations.splice(stations.indexOf("Leeds"), 1);
-console.log(stations);
+// console.log(stations);
 
 /**
  * Q7.
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
 
-// console.log(stations);
-
-
+stations.splice(stations.indexOf("York"), 0, "Darlington");
+console.log(stations);
 
 /**
  * Q8.
