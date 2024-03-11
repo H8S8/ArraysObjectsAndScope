@@ -13,7 +13,7 @@ const guessWho = function () {
 
 const finalAnswer = guessWho();
 console.log(finalAnswer);
-// // Prediction: 
+// // Prediction: Guess who is Joseph
 
 // // GUESS 2 ///////////////////
 
