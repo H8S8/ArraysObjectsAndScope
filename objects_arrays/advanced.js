@@ -32,15 +32,15 @@ unitedKingdom = [
  * Q1. Add some tourist attractions to England
  */
 
-england = null;
-
-// console.log(england);
+england = unitedKingdom.find(country => country.name === "England");
+england.touristAttractions = ["Roman Baths", "Tower of London"];
+console.log(england);
 
 /**
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
-wales = null;
+wales = unitedKingdom.find(country => country.name === "Wales");
 
 // console.log(wales);
 
