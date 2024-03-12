@@ -35,7 +35,7 @@ dogName = dog.name;
  * Q2. What breed is the cat?
  */
 
-catBreed = null;
+catBreed = cat.breed;
 
 // console.log("The cat is a " + catBreed);
 
